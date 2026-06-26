@@ -15,7 +15,21 @@ my-ai-backend/
     │   └── chat.py
     └── services/          # Service 비즈니스 로직 패키지
         └── llm_service.py
+```
 
+```bash
+# 1. 프로젝트 디렉토리 생성 및 초기화
+uv init my-ai-backend
+cd my-ai-backend
+
+# 2. 파이썬 3.11 기반 가상환경 생성 (.venv 생성됨)
+uv venv --python 3.11
+
+# 3. 핵심 라이브러리 광속 설치
+uv add fastapi uvicorn langchain-openai pydantic-settings
+```
+
+```text
 --------------------------------------------------------------
 # fastapi
 uv run uvicorn app.main:app --reload
