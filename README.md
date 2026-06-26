@@ -16,7 +16,7 @@ my-ai-backend/
     └── services/          # Service 비즈니스 로직 패키지
         └── llm_service.py
 
-
+--------------------------------------------------------------
 # fastapi
 uv run uvicorn app.main:app --reload
 
@@ -24,5 +24,4 @@ http://127.0.0.1:8000/docs
 http://127.0.0.1:8000/health
 
 kill -9 $(lsof -t -i:8000)
-
 ```
