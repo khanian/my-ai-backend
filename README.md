@@ -23,7 +23,7 @@ uv init my-ai-backend
 cd my-ai-backend
 
 # 2. 파이썬 3.11 기반 가상환경 생성 (.venv 생성됨)
-uv venv --python 3.11
+uv venv --python 3.14
 
 # 3. 핵심 라이브러리 광속 설치
 uv add fastapi uvicorn langchain-openai pydantic-settings
