@@ -1,5 +1,7 @@
 # my-ai-backend
 
+
+```text
 my-ai-backend/
 ├── pyproject.toml         # Gradle의 build.gradle 역할 (의존성 관리)
 ├── uv.lock                # Gradle의 lock 파일 역할 (의존성 고정)
@@ -13,3 +15,4 @@ my-ai-backend/
     │   └── chat.py
     └── services/          # Service 비즈니스 로직 패키지
         └── llm_service.py
+```
